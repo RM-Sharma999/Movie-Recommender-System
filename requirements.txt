@@ -1,7 +1,7 @@
-streamlit==1.37.1
-pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.4.2
-streamlit-clickable-images==0.0.3
+streamlit
+huggingface_hub
+pandas
+numpy
+scikit-learn
+streamlit-clickable-images
 requests
-
