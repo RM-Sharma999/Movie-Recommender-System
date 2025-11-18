@@ -4,6 +4,7 @@ import pandas as pd
 import pickle
 import requests
 import base64
+from huggingface_hub import hf_hub_download
 import time
 
 # Get movie metadata function
@@ -72,9 +73,19 @@ def recommend_movies(movie):
         recommended_movies_posters.append(fetch_poster(movie_id))
     return recommended_movies, recommended_movies_posters
 
-# Load data and similarity matrix
+# Details for hugging face repo
+repo_id = "Rajan1999/Similarity"
+file_name = "similarity.pkl"
+
+# Download the file (cached after first download)
+file_path = hf_hub_download(repo_id = repo_id, filename = file_name, repo_type = "dataset")
+
+# Load the similarity matrix
+with open(file_path, "rb") as f:
+    similarity = pickle.load(f)
+
+# Load the data
 movies_dict = pickle.load(open("movies_dict.pkl", "rb"))
-similarity = pickle.load(open("similarity.pkl", "rb"))
 
 movies = pd.DataFrame(movies_dict)
 movie_titles = movies["title"].values
