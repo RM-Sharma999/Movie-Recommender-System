@@ -10,4 +10,14 @@ The goal of this project is to build a movie recommendation engine that suggests
 
 ---
 
+## Dataset Overview
+
+The project uses a dataset of movies containing essential movie metadata (e.g., titles, genres) stored in `movies.csv`. Movie embeddings and index files (`embeddings.pkl`, `faiss_index.bin`) are generated to support fast similarity search for recommending related movies.
+
+Key elements:
+- **movies.csv** — Movie dataset.
+- **embeddings.pkl** — Precomputed feature embeddings representing movies in vector space.
+- **faiss_index.bin** — FAISS index for efficient nearest-neighbor search.
+
+---
 
