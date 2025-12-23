@@ -4,4 +4,10 @@ A machine learning–based movie recommendation system built using user–movie 
 
 ---
 
+## Objective
+
+The goal of this project is to build a movie recommendation engine that suggests movies similar to a given movie or user preferences. It combines embedding techniques with efficient similarity search to provide relevant movie suggestions.
+
+---
+
 
