@@ -23,7 +23,7 @@ Key elements:
 
 ## How It Works
 
-1. **Embedding Generation**
+1. **Embedding Generation**  
    Movie data is converted into vector representations encoding important movie features for effective similarity search.
 
 2. **Similarity Search**  
