@@ -21,3 +21,20 @@ Key elements:
 
 ---
 
+## How It Works
+
+1. **Embedding Generation**
+   Movie data is converted into vector representations encoding important movie features for effective similarity search.
+
+2. **Similarity Search**  
+   A FAISS index is used to perform fast nearest-neighbor search on movie vectors.
+
+3. **Recommendation Logic**  
+   Given a movie query, the system retrieves the most similar movies based on vector distances.
+
+4. **Application Interface**  
+   An application file (`app.py`) uses the precomputed index and embeddings to serve recommendations for a selected movie.
+
+---
+
+
