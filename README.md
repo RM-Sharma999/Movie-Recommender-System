@@ -37,4 +37,25 @@ Key elements:
 
 ---
 
+## Features
+
+- Content-based movie recommendations  
+- Efficient similarity search using FAISS
+- Embedding-based movie representation
+- Interactive Streamlit web application
+- Scalable recommendation logic
+
+---
+
+## Usage
+
+Ensure all required dependencies are installed and all necessary files are available in the project directory.
+
+Launch the Streamlit application by running:
+```bash
+streamlit run app.py
+
+---
+
+
 
