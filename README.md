@@ -68,7 +68,7 @@ The application is deployed as a **Streamlit web app** on the **Streamlit Web Co
 
 ## Key Takeaways
 
-- Built a content-based movie recommender system using embedding representations and similarity search.
-- Implemented efficient nearest-neighbor retrieval to generate fast and relevant recommendations.
-- Designed an interactive Streamlit app for seamless user interaction.
+- Built a **content-based movie recommender system** using **embedding representations** and **similarity search**.
+- Implemented **efficient nearest-neighbor retrieval** to generate fast and relevant recommendations.
+- Designed an **interactive Streamlit app** for seamless user interaction.
 - Gained hands-on experience deploying a recommendation system as a web application.
