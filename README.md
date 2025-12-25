@@ -53,7 +53,7 @@ streamlit run app.py
 - **Programming Language**: `Python`
 - **Data Analysis**: `Pandas`, `NumPy`
 - **Machine Learning**: `Embedding Techniques`, `Similarity Search(FAISS)`
-- **Web Interface**: Streamlit
+- **Web Interface**: `Streamlit`
 - **Deployment Platform**: `Streamlit Web Community`
 
 ---
