@@ -58,7 +58,27 @@ streamlit run app.py
 
 ---
 
+## Technologies Used
 
+- **Programming Language**: `Python`
+- **Data Analysis**: `Pandas`, `NumPy`
+- **Machine Learning**: `Embedding Techniques`, `Similarity Search(FAISS)`
+- **Web Interface**: Streamlit
+- **Deployment Platform**: `Streamlit Web Community`
 
+---
 
+## Deployment
 
+The application is deployed as a **Streamlit web app** on the **Streamlit Web Community** platform. It offers an interactive interface where users can view movie recommendations and click on suggested movies to receive updated recommendations in real time.
+
+[Movie Recommender System Live App](https://movie-recommender-system-bcx5ns6pxvmn8gazkykg42.streamlit.app/)
+
+---
+
+## Key Takeaways
+
+- Built a content-based movie recommender system using embedding representations and similarity search.
+- Implemented efficient nearest-neighbor retrieval to generate fast and relevant recommendations.
+- Designed an interactive Streamlit app for seamless user interaction.
+- Gained hands-on experience deploying a recommendation system as a web application.
