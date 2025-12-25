@@ -54,6 +54,7 @@ Ensure all required dependencies are installed and all necessary files are avail
 Launch the Streamlit application by running:
 ```bash
 streamlit run app.py
+```
 
 ---
 
