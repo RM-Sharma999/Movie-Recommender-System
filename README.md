@@ -45,7 +45,7 @@ Launch the Streamlit application by running:
 ```bash
 streamlit run app.py
 ```
-
+https://github.com/RM-Sharma999/Movie-Recommender-System/blob/main/assets/streamlit-app-2025-12-26-12-03-22.webm
 ---
 
 ## Technologies Used
