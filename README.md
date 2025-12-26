@@ -45,7 +45,7 @@ Launch the Streamlit application by running:
 ```bash
 streamlit run app.py
 ```
-![](https://github.com/RM-Sharma999/Movie-Recommender-System/blob/main/assets/streamlit-app.gif)
+[](https://github.com/RM-Sharma999/Movie-Recommender-System/blob/main/assets/streamlit-app.gif)
 
 ---
 
