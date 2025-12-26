@@ -47,7 +47,7 @@ streamlit run app.py
 ```
 <br>
 **Streamlit App Demo**:
-<br>
+<br/>
 
 ![Streamlit App Demo](assets/streamlit-app.gif)
 
