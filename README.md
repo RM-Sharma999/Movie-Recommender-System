@@ -45,7 +45,7 @@ Launch the Streamlit application by running:
 ```bash
 streamlit run app.py
 ```
-<br>
+<br><br/>
 ### Streamlit App Demo:
 <br><br/>
 
