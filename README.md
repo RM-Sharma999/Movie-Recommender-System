@@ -60,13 +60,13 @@ streamlit run app.py
 - **Data Analysis**: `Pandas`, `NumPy`
 - **Machine Learning**: `Embedding Techniques`, `Similarity Search(FAISS)`
 - **Web Interface**: `Streamlit`
-- **Deployment Platform**: `Streamlit Web Community`
+- **Deployment Platform**: `Streamlit Community Cloud`
 
 ---
 
 ## Deployment
 
-The application is deployed as a **Streamlit web app** on the **Streamlit Web Community** platform. It offers an interactive interface where users can view movie recommendations and click on suggested movies to receive updated recommendations in real time.
+The application is deployed as a **Streamlit web app** on the **Streamlit Community Cloud** platform. It offers an **interactive interface** where users can view movie recommendations and click on suggested movies to receive updated recommendations in real time.
 
 [Movie Recommender System Live App](https://movie-recommender-system-bcx5ns6pxvmn8gazkykg42.streamlit.app/)
 
