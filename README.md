@@ -66,7 +66,7 @@ streamlit run app.py
 
 ## Deployment
 
-The application is deployed as a **Streamlit web app** on the **Streamlit Community Cloud** platform. It offers an **interactive interface** where users can view movie recommendations and click on suggested movies to receive updated recommendations in real time.
+The application is deployed as a **Streamlit web app** on the **Streamlit Community Cloud** platform. It offers an **interactive interface** where users can view **movie recommendations** and click on suggested movies to receive **updated recommendations in real time**.
 
 [Movie Recommender System Live App](https://movie-recommender-system-bcx5ns6pxvmn8gazkykg42.streamlit.app/)
 
@@ -77,4 +77,4 @@ The application is deployed as a **Streamlit web app** on the **Streamlit Commun
 - Built a **content-based movie recommender system** using **embedding representations** and **similarity search**.
 - Implemented **efficient nearest-neighbor retrieval** to generate fast and relevant recommendations.
 - Designed an **interactive Streamlit app** for seamless user interaction.
-- Gained hands-on experience deploying a recommendation system as a web application.
+- Gained hands-on experience deploying a recommendation system as a **web application**.
