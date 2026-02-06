@@ -24,22 +24,22 @@ The project uses a dataset of movies containing essential **movie metadata** (e.
 ## How It Works
 
 1. **Embedding Generation**  
-   Movie data is converted into vector representations encoding important movie features for effective similarity search.
+   Movie data is converted into **vector representations** encoding important movie features for **effective similarity search**.
 
 2. **Similarity Search**  
-   A FAISS index is used to perform fast nearest-neighbor search on movie vectors.
+   A **FAISS index** is used to perform **fast nearest-neighbor search** on movie vectors.
 
 3. **Recommendation Logic**  
-   Given a movie query, the system retrieves the most similar movies based on vector distances.
+   Given a movie query, the system retrieves the **most similar movies** based on **vector distances**.
 
 4. **Application Interface**  
-   An application file (`app.py`) uses the precomputed index and embeddings to serve recommendations for a selected movie.
+   An application file (`app.py`) uses the **precomputed index and embeddings** to serve **recommendations** for a selected movie.
 
 ---
 
 ## Usage
 
-Ensure all required dependencies are installed and all necessary files are available in the project directory.
+Ensure all **required dependencies** are installed and all **necessary files** are available in the project directory.
 
 Launch the Streamlit application by running:
 ```bash
