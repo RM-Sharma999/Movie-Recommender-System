@@ -23,8 +23,7 @@ The project uses a dataset of movies containing essential **movie metadata** (e.
 
 ## How It Works
 
-1. **Embedding Generation**  
-   1. **Embedding Generation**  
+1. **Embedding Generation**   
    Movie data is converted into dense vector embeddings using **Sentence-Transformers**, capturing semantic similarity between movies based on their metadata.
 
 2. **Similarity Search**  
