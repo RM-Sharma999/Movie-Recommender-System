@@ -12,11 +12,11 @@ The goal of this project is to build a **movie recommendation engine** that sugg
 
 ## Dataset Overview
 
-The project uses a dataset of movies containing essential **movie metadata** (e.g., titles, genres) stored in `movies.csv`. **Movie embeddings** and **index files** (`embeddings.pkl`, `faiss_index.bin`) are generated to support **fast similarity search** for recommending related movies.
+The project uses a dataset of movies containing essential **movie metadata** (e.g., titles, genres), collected via **The Movie Database (TMDb) API** and compiled into `movies.csv`. **Movie embeddings** and **index files** (`embeddings.pkl`, `faiss_index.bin`) are generated using **Sentence-Transformers** to support **fast similarity search** for recommending related movies.
 
 **Key elements:**
-- **movies.csv** — Movie dataset.
-- **embeddings.pkl** — Precomputed feature embeddings representing movies in vector space.
+- **movies.csv** — Movie dataset collected via the TMDb API.
+- **embeddings.pkl** — Precomputed Sentence-Transformer embeddings representing movies in vector space.
 - **faiss_index.bin** — FAISS index for efficient nearest-neighbor search.
 
 ---
@@ -24,7 +24,8 @@ The project uses a dataset of movies containing essential **movie metadata** (e.
 ## How It Works
 
 1. **Embedding Generation**  
-   Movie data is converted into **vector representations** encoding important movie features for **effective similarity search**.
+   1. **Embedding Generation**  
+   Movie data is converted into dense vector embeddings using **Sentence-Transformers**, capturing semantic similarity between movies based on their metadata.
 
 2. **Similarity Search**  
    A **FAISS index** is used to perform **fast nearest-neighbor search** on movie vectors.
@@ -58,7 +59,7 @@ streamlit run app.py
 
 - **Programming Language**: `Python`
 - **Data Analysis**: `Pandas`, `NumPy`
-- **Vector Representations & Search**: `Embedding Techniques`, `Similarity Search(FAISS)`
+- **Vector Representations & Search**: `Sentence-Transformers`, `FAISS`
 - **Web Interface**: `Streamlit`
 - **Deployment Platform**: `Streamlit Community Cloud`
 
@@ -74,7 +75,7 @@ The application is deployed as a **Streamlit web app** on the **Streamlit Commun
 
 ## Key Takeaways
 
-- Built a **content-based movie recommender system** using **embedding representations** and **similarity search**.
+- Built a **content-based movie recommender system** using **Sentence-Transformer embeddings** and **FAISS similarity search**.
 - Implemented **efficient nearest-neighbor retrieval** to generate fast and relevant recommendations.
 - Designed an **interactive Streamlit app** for seamless user interaction.
-- Gained hands-on experience deploying a recommendation system as a **web application**.
+- Gained hands-on experience sourcing data via the **TMDb API** and deploying a recommendation system as a **web application**.
